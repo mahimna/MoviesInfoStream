@@ -93,7 +93,7 @@ var amount = 0;
  	function continuousStream (){
 
  		addElement();
- 		stream = setInterval (function(){addElement()},3000); 			
+ 		stream = setInterval (function(){addElement()},30000); 			
  	}
 
  	function changeSynopsisView (){
